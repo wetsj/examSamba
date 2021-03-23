@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: Arial;
+
+}
+
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logo a{
+	color: orange;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 150px;
+	border-top: 3px orange solid;
+	border-bottom: 3px orange solid;
+}
+.logo span{
+	color: #000;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu li a{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 25px;
+	transition: color 1s;
+}
+.menu li .active{
+	color: orange;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: orange;
+}
+.bas{
+	padding-left: 400px;
+	background-color: orange;
+	font-weight: bold;
+}
+.basPage{
+	display: inline-block;
+}
+.basPage h3{
+	margin-top: 10px;
+	width: 250px;
+	font-size: 25px;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+.basPage form label{
+	padding-left: 50px;
+}
+.basPage form input{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding-left: 50px;
+}
+.icones{
+	display: inline-block;
+}
